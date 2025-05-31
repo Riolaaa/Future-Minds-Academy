@@ -1,0 +1,135 @@
+body {
+    background-image: url(OIP.jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 1em 10% 0 10%;
+    cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"><text x="0" y="24" font-size="24">🚀</text></svg>') 16 16, auto;
+}
+.about {
+    padding: 12px;
+    margin: 10px;
+    background-color: rgb(182, 143, 93);
+    border-radius: 10px;
+}
+.about:hover {
+    background-color: rgb(189, 140, 76);
+    border: 3px solid rgb(41, 40, 40);
+    border-radius: 10px
+}
+.education {
+    padding: 12px;
+    margin: 10px;
+    background-color: rgb(192, 157, 111);
+    border-radius: 10px;
+}
+.education:hover {
+
+
+    background-color: rgb(212, 170, 115);
+    border: 3px solid rgb(41, 40, 40);
+    border-radius: 10px
+}
+.skills {
+    padding: 12px;
+    margin: 10px;
+    background-color: rgb(192, 157, 111);
+    border-radius: 10px
+}
+.skills:hover {
+    background-color: rgb(212, 170, 115);
+    border: 3px solid rgb(41, 40, 40);
+    border-radius: 10px;
+}
+nav ul li {
+    display: inline;
+    margin: 90px;
+    padding: 10px;
+    background-color: rgb(185, 106, 106);
+    border-radius: 10px;
+}
+nav ul li:hover {
+    background-color: rgb(199, 106, 106);
+    border: 2px solid black;
+
+}
+th {
+
+    background-color: rgb(190, 163, 130);
+}
+td {
+
+    background-color: rgb(240, 202, 156);
+}
+table {
+    border-collapse: collapse;
+}
+footer {
+    background-color: rgb(105, 69, 22);
+    padding: 20px;
+    border-radius: 10px;
+}
+.education ul {
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+.projects {
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+.projects:hover{
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.contactlinks {
+    border-radius: 20px;
+    background-color:dark salmon ;
+    border: 2 px solid white;
+    padding: 10px;
+}
+.firstproject,.secondproject,.thirdproject {
+    border: 2px solid white;
+    background-color: blanchedalmond;
+    border-radius: 20px;
+   
+}
+.firstproject:hover,.secondproject:hover,.thirdproject:hover {
+    border-radius: 20px;
+    border: 2px dashed red;
+    padding: 5px;
+    background-color: rgb(219, 196, 161);
+}
+.contact input,button{
+  
+    border: 2px solid black;
+    padding: 5px;
+    background-color: rgb(209, 194, 188);
+}
+.contact input:hover {
+    background-color: white;
+    border: 2px dashed red;
+}
+.contact button:hover{
+    background-color: lightgreen;
+    border:2px solid darkgreen;
+}
+.contactlinks {
+    background-color: antiquewhite;
+    margin: 5px;
+    border: 2px double gray;
+}
+.media a:hover{
+    border-bottom: 5px solid rgb(59, 2, 2);
+  padding-bottom: 5px;
+}
+.first-btn,.second-btn,.third-btn{
+    position: relative;
+    bottom: 10px;
+    right: 10px;
+    margin: 12px;
+    background-color: rgb(243, 225, 225);
+    padding: 3px;
+    border-radius: 5px;
+}
+.first-btn:hover,.second-btn:hover,.third-btn:hover {
+    border: 2px solid black;
+}
