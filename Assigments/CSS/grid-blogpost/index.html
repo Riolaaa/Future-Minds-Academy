@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        aside {
+            position: fixed;
+            height: 100vh;
+            width: 200px;
+            padding-right: 10px;
+            background-color: rgb(55, 74, 90);
+            color: white;
+            display: grid;
+            grid-template-rows: 1fr 1fr 1fr;
+            justify-items: end;
+            align-items: center;            
+        }
+        .btn {
+            background-color: transparent;
+            color: rgba(255, 255, 255, 0.623);
+            border: 2px solid rgba(255, 255, 255, 0.623);
+            padding: 0.5rem;
+            margin-left: 130px;
+            text-align: right;
+        }
+        a {
+            text-decoration: none;
+        }
+        .heading {
+            text-align: right;
+            margin: 0.5rem;
+            font-size: 3rem;
+        }
+        .param {
+            font-size: 20px;
+            margin-left: 100px;
+            text-align: right;
+            color: rgba(255, 255, 255, 0.623);
+        }
+        main {
+            width: 80%;
+            float: right;
+        }
+        .intro {
+            display: grid;
+            grid-template-columns: 1fr auto;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .image {
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            margin-top: 2rem;
+        }
+        .pinned {
+            display: grid;
+            grid-template-rows: 1fr;
+        }
+        .html {
+            border: 2px solid rgb(66, 66, 211);
+            background-color: rgb(66, 66, 211);
+            color: white;
+        }
+        .css {
+            border: 2px solid rgb(74, 141, 74);
+            background-color: rgb(74, 141, 74);
+            color: white;
+        }
+        .john {
+            color: rgb(88, 88, 235);
+        }
+        .tittle {
+            font-size: 2.2rem;
+        }
+        .intro2 {
+            display: grid;
+            grid-template-columns: 1fr auto;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .java {
+            border: 2px solid rgb(248, 44, 44);
+            background-color: rgb(248, 44, 44);
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <aside>
+        <h1 class="heading">A sample blog</h1>
+        <p class="param">Lorem Ipsum dolor</p>
+        <a href=""><span class="btn">Login</span></a>
+    </aside>
+    <main>
+        <div class="pin">
+            <p class="pinned">PINNED POST</p>
+            <hr>
+            <section class="intro">
+                <h1 class="tittle">A pinned post</h1>
+                <img class="image" src="download.jfif" alt="">
+            </section>
+            <span>
+                <p>By <span class="john">John Doe</span> under <span class="html">HTML</span> <span
+                        class="css">CSS</span></p>
+            </span>
+            <div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore, assumenda! Incidunt commodi
+                voluptate non labore a dicta praesentium dolor, ea esse ex, tempore ipsam corrupti quidem hic, deserunt
+                similique saepe.</div>
+        </div>
+        <div class="recent">
+            <p class="posts">RECENT POSTS</p>
+            <hr>
+            <section class="intro2">
+                <h1 class="tittle">A recent post</h1>
+                <img class="image" src="download.jfif" alt="">
+            </section>
+            <span>
+                <p> By <span>Rocky Balboa</span> under <span class="java">JavaScript</span> </p>
+            </span>
+            <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore, assumenda! Incidunt commodi
+                voluptate non labore a dicta praesentium dolor, ea esse ex, tempore ipsam corrupti quidem hic, deserunt
+                similique saepe.</div>
+        </div>
+    </main>
+</body>
+
+</html>
