@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+           
+            grid-template-rows: 200px 1fr 200px;
+        }
+
+        .heading {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: black;
+            color: white;
+            flex-direction: column;
+        }
+
+        main {
+            grid-row: 2/3;
+        }
+
+        footer {
+            background-color: gray;
+            grid-row: 3/4;
+            height: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .content{
+            display: grid;
+            grid-template-columns: 200px 200px 200px;
+            grid-template-rows: 200px 200px 200px;
+            grid-row: 3/3;
+            grid-column: 3/3;
+            column-gap: 10px;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .p1{
+            height: 150px;
+            width: 200px;
+            border: 2px solid gray;
+            border-radius: 20px;
+           
+        }
+        
+       .info{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+       }
+       .header2{
+       margin-left:280px ;
+       }
+        
+    </style>
+</head>
+
+<body>
+    <header class="heading">
+        <h1 class="h1">Portfolio i Rioles</h1>
+        <p>Web Developer-Freelancer </p>
+
+    </header>
+    <main>
+        <div  >
+        <h2 class="header2" >Rreth meje:</h2>
+       <p class="info">  Jam nxenese e Future Minds Academy,ku kam kryer HTML dhe jam duke vazhduar mesimet ne CSS.</p> 
+        </div>
+       
+        <div class="content">
+            <div class="p1">
+                <h2>Projekti 1</h2>
+                <p>Faqe per nje agjenci udhetimi</p>
+            </div>
+            <div class="p1">
+                <h2>Projekti 2</h2>
+                <p>Blog personal me CSS</p>
+            </div>
+            <div class="p1">
+                <h2>Projekti 3</h2>
+                <p> Galeri fotografish</p>
+            </div>
+            <div class="p1">
+                <h2>Projekti 4</h2>
+                <p>Fqe me HTML</p>
+            </div>
+            <div class="p1">
+                <h2>Projekti 4</h2>
+                <p>Fqe me HTML</p>
+            </div>
+            <div class="p1">
+                <h2>Projekti 4</h2>
+                <p>Fqe me HTML</p>
+            </div>
+            
+            <div class="p1">
+                <h2>Projekti 4</h2>
+                <p>Fqe me HTML</p>
+            </div>
+            <div class="p1">
+                <h2>Projekti 4</h2>
+                <p>Fqe me HTML</p>
+            </div>
+            <div class="p1">
+                <h2>Projekti 4</h2>
+                <p>Fqe me HTML</p>
+            </div>
+            
+           
+        </div>
+       
+    </main>
+    <footer>
+       &copy; 2025 Fma.Te gjitha te drejtat e rezervuara
+    </footer>
+</body>
+
+</html>
